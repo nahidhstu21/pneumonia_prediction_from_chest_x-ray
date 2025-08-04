@@ -24,11 +24,11 @@ git clone https://github.com/nahidhstu21/pneumonia-xray-detector.git
 cd pneumonia_prediction_from_chest_x-ray
 pip install -r requirements.txt
 
-Usage
+##Usage
 python app.py
 Then open your browser and go to: http://localhost:7860
 
-Model Inference
+##Model Inference
 from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
